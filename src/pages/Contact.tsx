@@ -7,7 +7,10 @@ export const Contact = () => {
   return (
     <section className="flex flex-col items-center py-4 xl:py-8">
       <h3 className="font-bold text-2xl xl:text-4xl pb-2">Contact Us</h3>
-      <h5 className="font-medium text-sm xl:text-lg text-neutral-500 pb-12">
+      <h5
+        className="font-medium text-sm xl:text-lg text-neutral-500 pb-12
+       text-center px-14"
+      >
         Any question or remarks? Just write us a message!
       </h5>
       <div
